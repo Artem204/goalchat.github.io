@@ -57,3 +57,16 @@ nav	{
 	height: 265px;
 	background: #587;
 }
+
+#content {
+	width: 55%;
+	height: initial;
+	background: yellow;
+	margin: auto;
+}
+
+.ad-block {
+	width: 100%;
+	height: 100px;
+	background: purple;
+}
