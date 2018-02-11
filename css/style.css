@@ -6,7 +6,7 @@
 header {
 	width: 100%;
     height: 569px;
-    background: url(images/uefa_4.png);
+    background: url(images/uefa-5.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -110,13 +110,13 @@ img {
 	width: 100%;
 	height: initial;
 	display: flex;
-	
+	background: #242628;
 }
 
 .left_ad, .right_ad {
 	width: 15%;
     height: 400px;
-    background: red;
+    background: #525658;
     text-align: center;
 }
 
@@ -126,9 +126,11 @@ img {
 }
 .ad-block {
 	width: 100%;
-	height: 100px;
-	background: purple;
+	height: 220px;
+	background:url(images/r1.png);
 	text-align: center;
+	background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .tv_name {
@@ -168,6 +170,11 @@ img {
 .tv_icon {
 	width: 100px;
 	height: 100px;
-	border: 1.2px solid #525658;
-
+	margin: 16px;
+    box-shadow: 0 0 7px 0px #525658;
+    transform: rotate(20deg);
 }
+
+/*.tv_icon:hover {
+	transform: rotate(0deg);
+}*/
