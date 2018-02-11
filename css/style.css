@@ -6,27 +6,24 @@
 header {
 	width: 100%;
     height: 569px;
-    background: url(images/uefa.png);
+    background: url(images/uefa_4.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+    background-position: bottom;
 }
 
 nav	{
-	 width: 55%;
+	width: 55%;
     max-height: 65px;
     background: #4387d978;
-    /* margin: auto; */
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-size: 22px;
     color: #ffffffd9;
     font-weight: bold;
+    margin: auto;
+    border-radius: 0 0 10px 10px;
 }
 
 img {
@@ -44,27 +41,25 @@ img {
 
 .logo {
 	width: 27%;
-	height: 121px;
 	background: #bdd7ffd1;
     border-radius: 0 0 10px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    max-height: 65px;
 
 }
 
 .logo_container {
-	width: 74%;
-    height: 70px;
+	width: 61%;
 }
 
 .slider_container {
 	width: 100%;
-	min-height: 300px;
-	/*background: blue;*/
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -88,6 +83,18 @@ img {
     border-radius: 8px;
 }
 
+@media (max-width: 1330px) {
+	nav {
+		width: 100%;
+	}
+
+	header {
+		height: 400px;
+	}
+	.live_slider {
+		height: 270px;
+	}
+}
 #content {
 	width: 55%;
 	height: initial;
