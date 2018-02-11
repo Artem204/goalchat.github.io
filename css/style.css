@@ -96,14 +96,63 @@ img {
 	}
 }
 #content {
-	width: 55%;
+	width: 100%;
 	height: initial;
-	background: yellow;
-	margin: auto;
+	display: flex;
+	
 }
 
+.left_ad, .right_ad {
+	width: 15%;
+    height: 400px;
+    background: red;
+    text-align: center;
+}
+
+.content_tv {
+	width: 70%;
+	background: #366e23;
+}
 .ad-block {
 	width: 100%;
 	height: 100px;
 	background: purple;
+	text-align: center;
+}
+
+.tv_name {
+	width: 100%;
+	background: #242628;
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.ru-tv, .en-tv {
+	width: 100%;
+ 	height: 200px;
+    background: #e7e7e7;
+    margin-top: 10px;
+}
+
+.title_tv_block {
+	text-align: center;
+	color: #7c7c7c;
+    font-size: 32px;
+    margin-top: 5px;
+    padding: 5px;
+    border-bottom: 1.2px solid #525658;
+    font-family: 'Shrikhand', cursive;
+}
+
+.tv_icon_block {
+	padding: 10px;
+}
+
+.tv_icon {
+	width: 100px;
+	height: 100px;
+	border: 1.2px solid #525658;
+
 }
