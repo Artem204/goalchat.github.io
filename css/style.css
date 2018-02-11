@@ -25,7 +25,18 @@ nav	{
     margin: auto;
     border-radius: 0 0 10px 10px;
 }
+/*new*/
+nav li {
+	padding: 5px 10px;
+    cursor: pointer;
+    
+}
 
+nav li:hover {
+	background: #24811c;
+    border-radius: 5px;
+}
+/*new*/
 img {
 	max-width: 100%;
     height: auto;
