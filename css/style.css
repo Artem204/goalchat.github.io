@@ -145,6 +145,7 @@ img {
  	height: 200px;
     background: #e7e7e7;
     margin-top: 10px;
+    height: auto;
 }
 
 .title_tv_block {
@@ -159,6 +160,9 @@ img {
 
 .tv_icon_block {
 	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .tv_icon {
