@@ -13,9 +13,9 @@
 		<header>
 			<nav>
 				<ul class="top_menu">
-					<li>Glxavor</li>
-					<li>Table</li>
-					<li>News</li>	
+					<li class="lang" key="home">Главная</li>
+					<li class="lang" key="table">Таблица</li>
+					<li class="lang" key="news">Новости</li>	
 				</ul>
 				<div class="logo">
 					<div class="logo_container">
@@ -23,9 +23,9 @@
 					</div>
 				</div>
 				<ul class="language">
-					<li>am</li>
-					<li>en</li>
-					<li>ru</li>
+					<li class="translate" id="am">am</li>
+					<li class="translate" id="en">en</li>
+					<li class="translate" id="ru">ru</li>
 				</ul>
 
 			</nav>
@@ -198,15 +198,16 @@
 			<img src="css/images/logo.png" width="200px">
 		</div>
 		<div class="footer_content">
-			<p>© 2018 GoalChat / Բոլոր իրավունքները պաշտպանված են:</p>
+			<p class="lang" key="footer_text">© 2018 GoalChat / Все права защищены.</p>
 		</div>
 		<div class="about">
-			<h4>Հետադարձ Կապ</h4>
-			<p><span>Էլ․ Փոստ:</span> goalchat@gmail.com</p>
+			<h4 class="lang" key="abut_us">Обратная связь</h4>
+			<p><span class="lang" key="email">Эл. почта:</span> goalchat@gmail.com</p>
 		</div>
 	</footer>
 </div>
-</body>
 <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/language.js"></script>
+</body>
 </html>

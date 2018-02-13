@@ -11,3 +11,15 @@ anchors[i].addEventListener('mouseout', function () {
 	img.src= img.dataset.url;
 })
 }
+
+// language script
+
+$(function(){
+	$('.translate').click(function(){
+		var lang = $(this).attr('id');
+
+		$('.lang').each(function(index, element){
+			$(this).text(arrLang[lang][$(this).attr('key')])
+		});
+	});
+});
